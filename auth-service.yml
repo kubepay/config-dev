@@ -10,3 +10,20 @@ spring:
 server:
   context-path: /uaa
   port: 5000
+
+#server.port=9191
+
+logging:
+  level:
+    org.springframework.security: DEBUG
+
+security:
+  sessions: if_required
+ 
+# security.user.name=user
+# security.user.password: passwor
+
+#security.oauth2.client.clientId: acme
+#security.oauth2.client.clientSecret: acmesecret
+#security.oauth2.client.authorized-grant-types: authorization_code,refresh_token,password
+#security.oauth2.client.scope: openid
